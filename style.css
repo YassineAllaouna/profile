@@ -1,0 +1,111 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #2c2c77;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #212159;
+}
+a {
+  color: #2c2c77;
+  text-decoration: none;
+  font-size: 21px;
+  margin-bottom: 100px;
+}
+a:hover{
+  color: #373795;
+}
+p{
+  margin-bottom: 40px;
+}
+.container{
+  margin: 0 auto;
+  width: 700px;
+}
+.card-white{
+  background-color: rgb(255, 255, 255);
+  border: 10px;
+  padding: 30px;
+  box-shadow: 1px 1px 300px lightgray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+}
+#avatar{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.button{
+  background-color: #2c314e;
+  color: white;
+  border-radius: 4px;
+  padding: 15px;
+}
+.button:hover{
+  background-color: #373795;
+  color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+i{
+  font-size: 50px;
+  padding: auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  h1{
+    font-size: 32px;
+    line-height: 30px;
+  }
+  h2{
+    font-size: 28px;
+  }
+
+}
